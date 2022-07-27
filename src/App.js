@@ -1,4 +1,3 @@
-import './App.css';
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import List from './components/List';
@@ -31,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <>
       <Header imageSrc={owner.imageSrc}
         profileName={owner.profileName}
         profileUrl={owner.profileUrl}
@@ -41,7 +40,7 @@ function App() {
       <h1>Repositórios</h1>
 
       <List list={search} />
-    </div>
+      </>
   );
 }
 
