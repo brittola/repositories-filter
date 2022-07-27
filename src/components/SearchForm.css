@@ -1,0 +1,36 @@
+form {
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 40%;
+    height: 50px;
+}
+
+input {
+    width: 85%;
+    font-size: 1rem;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+    transition: transform 200ms;
+}
+
+input:hover,
+input:focus {
+    transform: scale(1.02);
+}
+
+.form--icon{
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 660px){
+    form{
+        width: 80%;
+    }
+}
