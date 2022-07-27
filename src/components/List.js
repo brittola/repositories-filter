@@ -14,7 +14,7 @@ function List({ list }) {
                     )
                 }else{
                     return (
-                        <p>Nenhum resultado encontrado :(</p>
+                        <p key={0}>Nenhum resultado encontrado :(</p>
                     )
                 }
             })}
