@@ -1,3 +1,14 @@
+# Repositories Filter
+
+Página que consome a API do GitHub, lista os repositórios e suas descrições (caso existam).
+A página também monta um Header com as informações do usuário, caso ele tenha algum repositório.
+O objetivo principal do projeto foi criar um filtro de busca por nome dos repositórios.
+
+### Tecnologias
+
+- HTML, CSS e JavaScript
+- React (React-Icons)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
